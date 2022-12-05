@@ -1,0 +1,20 @@
+.nav-item a:hover,
+.nav-item .active{ 
+
+background: #fff
+}
+.navbar-brand :hover {
+    box-shadow:  0px 0px 6px 4px white;
+}
+.lace {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
+.line1{
+    
+}
