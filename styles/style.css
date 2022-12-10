@@ -139,6 +139,19 @@ body{
 .btn:hover{
    background: var(--black);
 }
+.btn2{
+    display: block;
+    width: 50%;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding:1rem 3rem;
+    background: grey;
+    color:var(--white);
+    text-align: center;
+    align-self: center;
+}
 
 .message{
    display: block;
@@ -327,8 +340,7 @@ body{
     justify-content: center;
 }
 .images{
-    max-width: 90%;
-    max-height: 90%;
+    width: 150px;
     object-fit: cover;
     object-position: center;
 }
@@ -390,3 +402,30 @@ button:hover{
 #sum{
     color: black;
 }
+
+@media (max-width:993px){
+
+    .product-display{
+       max-width: 350px;
+       margin: auto;
+       margin-top: 20px;
+    }
+ 
+ }
+ 
+@media (max-width:1225px){
+    .sidebar{
+        max-width: 600px;
+        margin:auto
+    }
+}
+ 
+@media (max-width:1000px){
+    .sidebar{
+        min-width: 500px;
+        margin:auto
+    }
+}
+ .indicator{
+    border: 2px solid white;
+ }

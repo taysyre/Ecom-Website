@@ -1,4 +1,4 @@
-const products = [
+const products = JSON.parse(localStorage.getItem('products')) || [
     {
         id: 0,
         image: 'https://i.postimg.cc/FFTfRcYG/155fdb858921a4a4e107ba79b2086626.jpg',
